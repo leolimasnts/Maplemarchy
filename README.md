@@ -79,4 +79,6 @@ Add your own (jpg, png or webp) to `~/.config/omarchy/backgrounds/maplemarchy/`.
 - **[Maple Mono](https://github.com/subframe7536/maple-font)** by [subframe7536](https://github.com/subframe7536): the font shown in the preview.
 - **[Omarchy](https://omarchy.org)** by DHH and contributors: the theming system this builds on.
 
+Released under the [MIT License](LICENSE).
+
 If you like this theme, give the original [Maple theme](https://github.com/subframe7536/vscode-theme-maple) a ⭐.
