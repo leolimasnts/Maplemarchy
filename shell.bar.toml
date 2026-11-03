@@ -1,0 +1,8 @@
+# Same as Omarchy's generated [bar], but on Maple's darker status bar background.
+background       = "#171718"
+background-alpha = 1.0
+text             = "#cbd5e1"
+active           = "#edabab"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28

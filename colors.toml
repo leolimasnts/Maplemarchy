@@ -1,0 +1,35 @@
+# Maple Dark — https://github.com/subframe7536/vscode-theme-maple
+mode = "dark"
+
+accent = "#8fc7ff"
+selection = "#475569"
+muted = "#5f5f68"
+
+background = "#1e1e1f"
+dark_background = "#171718"
+darker_background = "#111112"
+lighter_background = "#2a2a2d"
+
+foreground = "#cbd5e1"
+dark_foreground = "#64748b"
+light_foreground = "#e2e8f0"
+bright_foreground = "#f1f5f9"
+
+red = "#edabab"
+yellow = "#eecfa0"
+orange = "#f0c0a8"
+green = "#a4dfae"
+cyan = "#a1e8e5"
+blue = "#8fc7ff"
+magenta = "#d2ccff"
+brown = "#ded6cf"
+
+bright_red = "#ffc4c4"
+bright_yellow = "#ffe8b9"
+bright_green = "#bdf8c7"
+bright_cyan = "#bafffe"
+bright_blue = "#a8e0ff"
+bright_magenta = "#ebe5ff"
+
+hyprland_active_border = "rgba(8fc7ffee) rgba(d2ccffee) 45deg"
+hyprland_inactive_border = "rgba(44444baa)"
