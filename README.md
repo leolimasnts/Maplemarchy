@@ -52,26 +52,11 @@ Window borders use a blue → lavender gradient (`#8fc7ff` → `#d2ccff`).
 | Browsers | Chromium, Chrome, Edge, Brave (toolbar color) |
 | Other | t3code, RGB keyboard backlight |
 
-### Local install (full Maple experience)
-
-For safety, `omarchy theme install` ignores a few file types from git-installed themes and generates them from `colors.toml` instead. The theme still looks like Maple, but you lose:
-
-- Maple's exact terminal ANSI palette (`ghostty.conf`, `kitty.conf`, `alacritty.toml`, `foot.ini`).
-- The official [Maple Dark](https://marketplace.visualstudio.com/items?itemName=subframe7536.theme-maple) VS Code extension (`vscode.json`).
-
-To keep those files, clone the repo and link it as a local theme:
-
-```bash
-git clone https://github.com/leolimasnts/Maplemarchy.git ~/Projects/Maplemarchy
-ln -s ~/Projects/Maplemarchy ~/.config/omarchy/themes/maplemarchy
-omarchy theme set maplemarchy
-```
-
 ## Wallpapers
 
 The theme ships 19 soft 4K gradients in [`backgrounds/`](backgrounds), all drawn from the Maple palette. Each one stays dark enough that Maple's text color keeps at least a **7:1 contrast ratio** (WCAG AAA) anywhere on screen. Cycle through them with `omarchy theme bg next`.
 
-Add your own (jpg, png or webp) to `~/.config/omarchy/backgrounds/maplemarchy/`. To make more gradients, edit the list in [`tools/gen_walls.py`](tools/gen_walls.py) and run `python3 tools/gen_walls.py backgrounds 1.6` (needs ImageMagick).
+Add your own (jpg, png or webp) to `~/.config/omarchy/backgrounds/maplemarchy/`.
 
 ## Credits
 
